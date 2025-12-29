@@ -8,20 +8,20 @@ h1 {
     background-color: brown;
 }
 
-.baiduA {
+.baidu {
     color: red;
     font-size: 50px;
     text-decoration: none;
     /* text-decoration: overline; */
-    /* text-decoration: line-through; */
+    text-decoration: line-through;
 }
 
-.baiduA:hover {
+.baidu:hover {
     color: green;
     text-decoration: underline;
 }
 
-.baiduA:active {
+.baidu:active {
     color: yellow;
 }
 
@@ -34,4 +34,10 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-weight: bold;
+}
+.aaa { 
+    color: greenyellow;
+    font-size: 30px;
+    list-style-type:circle;
+    list-style-image: url('./icon.png');
 }
